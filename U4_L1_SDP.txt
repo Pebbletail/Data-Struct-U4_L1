@@ -1,0 +1,6 @@
+1. So that the variables cannot be altered by someone who isn't supposed to alter them.
+2. pop and top, if the Stack is empty they cannot return anything, and it would result in an error.
+3. So the programmer can understand how the tool works to use it most effectively.
+4. If we took from the bottom, every element would have to shift, making the operation take more time. Taking from the top is using
+  constant time, where taking from the bottom results in O(n) time, because it needs to interact with every element in the stack.
+5. Testing individual parts of a function to ensure that it works properly.
