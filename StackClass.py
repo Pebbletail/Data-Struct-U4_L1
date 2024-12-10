@@ -17,7 +17,7 @@ class ArrayStack:
     """Remove the last element in the stack and return it"""
     if self.__is_empty() == False:
       n = self.__stack[-1]
-      self.__stack.delete[-1]
+      del self.__stack[-1]
       self.__size -= 1
       return n
     else:
